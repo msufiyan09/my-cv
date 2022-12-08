@@ -26,6 +26,12 @@ h1{
     justify-content: space-between;
 }
 
+.my-logo{
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+}
+
 .my-nav{
     display: inline-block;
     margin-top: 10px;
@@ -64,20 +70,16 @@ h1{
     display: none;
 }
 
-.mob-nav ul li{
-    list-style: none;
-    padding: 5px 0;
-    padding-right: 50px;
-}
-
-.mob-nav ul li a{
+.mob-nav p a{
+    padding: 10px 10px 10px 0;
     text-decoration: none;
     color: #153462;
     font-size: 18px;
 }
 
-.mob-nav ul li a:hover{
-    color: #BAD1C2;
+.mob-nav p a:hover{
+    background-color: #BAD1C2;
+    color: #4FA095;
 }
 
 .my-img{
