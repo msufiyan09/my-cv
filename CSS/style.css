@@ -327,6 +327,14 @@ footer p{
 }
 
 @media(max-width: 988px){
+	
+    body{
+        background-image: url("../backg1.jpg");
+        background-repeat: repeat-y;
+        background-attachment: fixed;
+        background-size: contain;
+    }
+	
     .title{
         width: 80%;
         text-align: center;
